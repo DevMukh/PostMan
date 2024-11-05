@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro; // Import the TextMeshPro namespace
-
+//this class can pickup the letters form the postoffice
 public class PickUp : MonoBehaviour
 {
     public static int totalScore = 0; // Static variable to keep track of the score across all instances
