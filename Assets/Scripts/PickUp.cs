@@ -6,6 +6,7 @@ using TMPro; // Import the TextMeshPro namespace
 //this class can pickup the letters form the postoffice
 public class PickUp : MonoBehaviour
 {
+//letter pickup and increaseing score
     public static int totalScore = 0; // Static variable to keep track of the score across all instances
     public static Stack<int> collectedLetters = new Stack<int>(); // Stack to store collected letters
     private static List<int> availableValues = new List<int>(); // List to store available values
