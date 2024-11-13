@@ -20,7 +20,8 @@ public class Timer : MonoBehaviour
         // Calculate minutes and seconds
         int minutes = Mathf.FloorToInt(elapsedTime / 60);
         int seconds = Mathf.FloorToInt(elapsedTime % 60);
-        
+        //can also write name or email instaed of this  NameText.text="AmeerMukhtar";
+        //EmailText.text="ameermukhtar998@gmail.com";
         // Format the time as mm:ss
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
